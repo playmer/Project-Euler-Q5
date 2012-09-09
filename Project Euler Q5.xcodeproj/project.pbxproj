@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEF4C96315FC593A00B1A733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF4C96215FC593A00B1A733 /* Foundation.framework */; };
+		EEF4C96615FC593A00B1A733 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF4C96515FC593A00B1A733 /* main.m */; };
+		EEF4C96A15FC593B00B1A733 /* Project_Euler_Q5.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EEF4C96915FC593B00B1A733 /* Project_Euler_Q5.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EEF4C95C15FC593A00B1A733 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EEF4C96A15FC593B00B1A733 /* Project_Euler_Q5.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EEF4C95E15FC593A00B1A733 /* Project Euler Q5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project Euler Q5"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF4C96215FC593A00B1A733 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEF4C96515FC593A00B1A733 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEF4C96815FC593A00B1A733 /* Project Euler Q5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project Euler Q5-Prefix.pch"; sourceTree = "<group>"; };
+		EEF4C96915FC593B00B1A733 /* Project_Euler_Q5.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Project_Euler_Q5.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEF4C95B15FC593A00B1A733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF4C96315FC593A00B1A733 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEF4C95315FC593A00B1A733 = {
+			isa = PBXGroup;
+			children = (
+				EEF4C96415FC593A00B1A733 /* Project Euler Q5 */,
+				EEF4C96115FC593A00B1A733 /* Frameworks */,
+				EEF4C95F15FC593A00B1A733 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEF4C95F15FC593A00B1A733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4C95E15FC593A00B1A733 /* Project Euler Q5 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEF4C96115FC593A00B1A733 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4C96215FC593A00B1A733 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEF4C96415FC593A00B1A733 /* Project Euler Q5 */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4C96515FC593A00B1A733 /* main.m */,
+				EEF4C96915FC593B00B1A733 /* Project_Euler_Q5.1 */,
+				EEF4C96715FC593A00B1A733 /* Supporting Files */,
+			);
+			path = "Project Euler Q5";
+			sourceTree = "<group>";
+		};
+		EEF4C96715FC593A00B1A733 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4C96815FC593A00B1A733 /* Project Euler Q5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEF4C95D15FC593A00B1A733 /* Project Euler Q5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF4C96D15FC593B00B1A733 /* Build configuration list for PBXNativeTarget "Project Euler Q5" */;
+			buildPhases = (
+				EEF4C95A15FC593A00B1A733 /* Sources */,
+				EEF4C95B15FC593A00B1A733 /* Frameworks */,
+				EEF4C95C15FC593A00B1A733 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project Euler Q5";
+			productName = "Project Euler Q5";
+			productReference = EEF4C95E15FC593A00B1A733 /* Project Euler Q5 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEF4C95515FC593A00B1A733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Joshua Fisher";
+			};
+			buildConfigurationList = EEF4C95815FC593A00B1A733 /* Build configuration list for PBXProject "Project Euler Q5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EEF4C95315FC593A00B1A733;
+			productRefGroup = EEF4C95F15FC593A00B1A733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEF4C95D15FC593A00B1A733 /* Project Euler Q5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEF4C95A15FC593A00B1A733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF4C96615FC593A00B1A733 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEF4C96B15FC593B00B1A733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EEF4C96C15FC593B00B1A733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EEF4C96E15FC593B00B1A733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Project Euler Q5/Project Euler Q5-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEF4C96F15FC593B00B1A733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Project Euler Q5/Project Euler Q5-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEF4C95815FC593A00B1A733 /* Build configuration list for PBXProject "Project Euler Q5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF4C96B15FC593B00B1A733 /* Debug */,
+				EEF4C96C15FC593B00B1A733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF4C96D15FC593B00B1A733 /* Build configuration list for PBXNativeTarget "Project Euler Q5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF4C96E15FC593B00B1A733 /* Debug */,
+				EEF4C96F15FC593B00B1A733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEF4C95515FC593A00B1A733 /* Project object */;
+}
